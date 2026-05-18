@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Explorer | Help Page</title>
+    <link rel="stylesheet" href="style Final.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="food-background">
+    <header id="bar3">
+        <div class="logo-container">
+            <img src="https://www.vhv.rs/dpng/d/82-821105_cooking-png-icon-food-transparent-png.png" alt="Food Explorer logo" class="logo">
+            <h1>How to Use Food Explorer</h1>
+        </div>
+        <h3>| Get the Most Out of Our App |</h3>
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="home Final 1.html">Home Page</a></li>
+            <li><a href="about final.html">About Page</a></li>
+            <li><a href="help Final 2.html">Help Page</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="help-cards">
+            <div class="content-box step-card">
+                <div class="step-icon">🔍</div>
+                <h2>1. Search Recipes</h2>
+                <h3>Enter ingredients or dish name in the search bar.</h3>
+            </div>
+
+            <div class="content-box step-card">
+                <div class="step-icon">▾</div>
+                <h2>2. Filter & Select</h2>
+                <h3>Use filters to find recipes that match your diet.</h3>
+            </div>
+
+            <div class="content-box step-card">
+                <div class="step-icon">♥</div>
+                <h2>3. View Details & Save</h2>
+                <h3>Click a recipe to see nutrition info and save your favorites.</h3>
+            </div>
+        </section>
+
+        <section class="content-box2 search-area">
+            <h2>Recipe Search</h2>
+
+            <form id="recipe-search-form" class="search-panel">
+                <input id="recipe-query" type="text" placeholder="Search chicken, pasta, salad..." value="chicken">
+
+                <select id="diet-filter">
+                    <option value="">No filter</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten free">Gluten free</option>
+                    <option value="high protein">High protein</option>
+                </select>
+
+                <button type="submit">Search</button>
+            </form>
+
+            <p id="status-message"></p>
+            <div id="recipe-list" class="recipe-grid"></div>
+        </section>
+
+        <section class="content-box2 chart-area">
+            <h2>Recipe Ready Time Chart</h2>
+            <canvas id="recipe-chart" height="100"></canvas>
+        </section>
+
+        <section class="content-box2">
+            <h2>Tips & FAQs</h2>
+
+            <details>
+                <summary>How do I search by ingredients?</summary>
+                <p>If you want a meal with a specific ingredient, search that ingredient and the app will show recipes connected to it.</p>
+            </details>
+
+            <details>
+                <summary>How can I save my favorite recipes?</summary>
+                <p>Click the Save Favorite button on a recipe card. The recipe is sent to the backend and saved.</p>
+            </details>
+
+            <details>
+                <summary>Where can I find nutrition facts?</summary>
+                <p>The recipe cards show the basic recipe details provided by the recipe API.</p>
+            </details>
+        </section>
+
+        <section class="content-box3">
+            <h2>Eat Smarter, Cook Better, Live Healthier!</h2>
+        </section>
+    </main>
+
+    <script src="script Final 1.js"></script>
+</body>
+</html>

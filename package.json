@@ -1,0 +1,17 @@
+{
+  "name": "food-explorer-final-project",
+  "version": "1.0.0",
+  "description": "INST377 final project for Food Explorer recipe search app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No automated tests written yet. Manual testing is described in README.md.\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
