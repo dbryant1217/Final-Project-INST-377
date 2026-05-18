@@ -5,21 +5,21 @@ const fallbackRecipes = [
     {
         id: 1,
         title: "Chicken Rice Bowl",
-        image: "https://spoonacular.com/recipeImages/715538-312x231.jpg",
+        image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=700&q=80",
         readyInMinutes: 35,
         servings: 4
     },
     {
         id: 2,
         title: "Vegetarian Pasta",
-        image: "https://spoonacular.com/recipeImages/654959-312x231.jpg",
+        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=700&q=80",
         readyInMinutes: 25,
         servings: 3
     },
     {
         id: 3,
         title: "Fresh Garden Salad",
-        image: "https://spoonacular.com/recipeImages/642539-312x231.jpg",
+        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80",
         readyInMinutes: 15,
         servings: 2
     }
